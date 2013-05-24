@@ -176,6 +176,10 @@ h1 {
 	transition:all .1s linear;
 }
 
+.navbar .nav > li > a.login {
+    padding-right: 0px;
+}
+
 .navbar .nav > li > a.scroller {
     padding-top:20px;
     padding-bottom: 2px;
