@@ -2,72 +2,85 @@
 <html>
 <head>
     <title>kinderloop</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
-    <meta name="description" content="Front Row Responsive One page Theme With Video Support built by Harkable.com">
-    <meta name="author" content="harkable.com"> 
-  	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-  	<script>window.jQuery || document.write('<script src="assets/js/jquery-1.7.2.min.js"><\/script>')</script>
+    <link rel="shortcut icon" href="/assets/img/kinderloop.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+
     <script src="assets/js/jquery-ui-1.8.22.custom.min.js"></script>
     <script src="assets/js/jquery.imagesloaded.min.js"></script>
-    <!--  <script src="assets/js/video.js"></script>-->
+    <script src="assets/js/video.js"></script>
     <script src="assets/js/modernizr-2.5.3.min.js"></script>
+
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Raleway:200' rel='stylesheet' type='text/css'>
-	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script> 
-   <!--  <script src="assets/js/bigvideo.js"></script>  -->
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
-    <link href="assets/css/bootstrap-responsive.min.css" rel="stylesheet">
+
+    <script src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+    <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.min.css" rel="stylesheet">
+
     <link href="assets/css/main.css" rel="stylesheet">    
 
-  <!-- IE Fix for HTML5 Tags -->
-  <!--[if lt IE 9]>
-    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->      
+    <!-- IE Fix for HTML5 Tags -->
+    <!--[if lt IE 9]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
 </head>
 <body>
 
-  <!-- Navbar -->
-	<div class="navbar navbar-fixed-top">
-      <div class="navbar-inner">
-        <div class="container">
-    		<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-	            <span class="icon-bar"></span>
-	            <span class="icon-bar"></span>
-	            <span class="icon-bar"></span>
-          	</a>
-          	<a class="brand scroller" data-section="html" href="index.html"><img alt="" src="assets/img/kinderloop_logo.gif" style="height:40px;" /></a>
-          	<div class="nav-collapse collapse">
-                <ul class="nav pull-right">
-                  	<!-- <li><a href="#" class="toggle_video">Toggle Video Demo</a></li> -->
-                    <li><a href="#" class="scroller" data-section="#home">Home</a></li>
-                    <li><a href="#" class="scroller" data-section="#testimonials">Testimonials</a></li>
-                    <li><a href="#" class="scroller" data-section="#faq">FAQ</a></li>
-                    <li><a href="#" class="scroller" data-section="#team">Team</a></li>
-                    <li><a href="#" class="scroller" data-section="#contact">Contact</a></li>
-                  <!--   <li><a href="#" class="" ><button class="btn btn-small btn-primary">Login</button></a></li> -->
-                    <li></li>
-                    
-                </ul>
-	        </div>
-	        
-                
-	        
+    <!-- Navbar -->
+    <div class="container">
+        <div class="navbar navbar-static-top">
+            <ul class="nav pull-right">
+                <li><a href="#" class="scroller" data-section="#home">Home</a></li>
+                <li><a href="#" class="scroller" data-section="#testimonials">Testimonials</a></li>
+                <li><a href="#" class="scroller" data-section="#faq">FAQ</a></li>
+                <li><a href="#" class="scroller" data-section="#team">Team</a></li>
+                <li><a href="#" class="scroller" data-section="#contact">Contact</a></li>
+                <li><a href="#" class="" ><button class="flat-btn">Login</button></a></li>
+            </ul>
         </div>
-      </div>
     </div>
+
     <!-- end Navbar -->
-    
-    
+
     <!-- #intro -->
 	<div class="main-container">
-		<div class="container-fluid" id="intro">	
-		<div class="container">	
-			<div class="row span8 center">
-				<h1>We connect Preschools & Parents</h1>
-				<h3 class="light" stlye="color:#000;">Use kinderloop to quickly and securely post photos and news. Parents are updated immediately!</h3>
-				
-				<a href="#"  data-section="#apply" class="scroller btn btn-large btn-green">Learn more</a>
-				<a href="#"  data-section="#apply" class="scroller btn btn-large btn-green"><i class="icon-play icon-white"></i> Play Video</a>
+		<div class="container" id="intro">
+			<div class="row ">
+                <div class="span info">
+                    <div class="brand">
+                        <a href="/"><img src="assets/img/kinderloop-logo.png" alt="Kinderloop icon"></a>
+                    </div>
+                    <h2>
+                        The private social network for preschools and parents
+                    </h2>
+                    <div class="actions">
+                        <a class="flat-btn" data-toggle="modal" href="#learn_more_modal">
+                            <i class="icon-play"></i>
+                            Start your Free Trial
+                        </a>
+                    </div>
+                </div>
+                <div class="pull-right video">
+                    <iframe src="http://player.vimeo.com/video/61916306?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;color=ffffff"
+                            width="580"
+                            height="325"
+                            aspect="0.562"
+                            frameborder="0"
+                            webkitAllowFullScreen
+                            mozallowfullscreen
+                            allowFullScreen>
+                    </iframe>
+                </div>
+
+
+
+
+				<!--<h1>We connect Preschools & Parents</h1>-->
+				<!--<h3 class="light" stlye="color:#000;">Use kinderloop to quickly and securely post photos and news. Parents are updated immediately!</h3>-->
+				<!--<a href="#"  data-section="#apply" class="scroller btn btn-large btn-green">Learn more</a>-->
+				<!--<a href="#"  data-section="#apply" class="scroller btn btn-large btn-green"><i class="icon-play icon-white"></i> Play Video</a>-->
 			</div>	
 		</div>
 	</div>
