@@ -43,6 +43,10 @@ h1 {
 	margin:0 auto;
 }
 
+.centertext {
+	text-align:center;
+}
+
 /* Main Container Styles  */
 
 .main-container {
@@ -109,16 +113,16 @@ h1 {
 	background:#000;
 	background:rgba(0,0,0,0.8);
 }
+#testimonials {
+	background:#fff;
+}
+#safe {
+	background:#eee;
+}
 #contact {
 	background:#202020;
 }
 
-#tuition {
-	background:#eee;
-}
-#partners {
-	background:#fff;
-}
 
 .flat-btn {
     background-color: #1c1c1c;
@@ -302,4 +306,10 @@ h1 {
 }
 
 @media (max-width: 480px) {
+}
+
+.carousel-caption { position: relative; }
+
+.space-bottom {
+    margin-bottom: 30px; /* define margin as you see fit */
 }
