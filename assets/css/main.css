@@ -62,6 +62,13 @@ h2 {
 	color:#fff;
 }
 
+
+.carousel-caption { position: relative; }
+
+.space-bottom {
+    margin-bottom: 30px; /* define margin as you see fit */
+}
+
 .center {
 	float:none;
 	margin:0 auto;
@@ -107,7 +114,7 @@ ul.points li > span {
 
 
 ul.points li.action {
-    padding-top:15px;
+    padding:15px 0;
 }
 
 /* Section Styles  */
@@ -206,6 +213,11 @@ ul.points li.action {
     width: 700px;
     height: 490px;
     z-index: 0;
+}
+
+
+#testimonials {
+    background:#fff;
 }
 
 
@@ -316,7 +328,10 @@ ul.points li.action {
     #about .laptop-image {
         width: 508px;
         height: 370px;
+    }
 
+    #about .container {
+        min-height: auto;
     }
 }
 
