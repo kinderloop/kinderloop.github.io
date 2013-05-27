@@ -2,10 +2,7 @@
     background-color: #d3d3d3;
 }
 
-/* Setup Styles  */
-
 body {
-	/* Change the background image here  */
 	background: url('../img/bg.jpg') #000 top center fixed no-repeat;
 	font-family:'Open Sans',sans-serif;
     background-position: center center;
@@ -18,7 +15,6 @@ body {
 }
 
 h1,h2,h3,h4,h5,h6 {
-	font-weight:300;
 }
 
 h1 {
@@ -28,6 +24,34 @@ h1 {
 	line-height:55px;
 	text-shadow:0 1px 1px rgba(0,0,0,0.6);
 	margin-bottom:30px;
+}
+
+h2 {
+    font-size:26px;
+    font-weight: normal;
+    line-height: 29px;
+}
+
+/* Main Container Styles  */
+
+.flat-btn {
+    background-color: #1c1c1c;
+    opacity: 0.75;
+    border: none;
+    color:#ffffff;
+    padding: 10px 15px 10px;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    font-size: 18px;
+    display: inline-block;
+}
+
+.flat-btn:hover {
+    opacity: 0.9;
+    text-decoration: none;
+    color: white;
 }
 
 .dark {
@@ -43,10 +67,47 @@ h1 {
 	margin:0 auto;
 }
 
-/* Main Container Styles  */
-
 .main-container {
 	position:relative;
+}
+
+.container {
+    position: relative;
+}
+
+ul.points {
+    margin: 0px;
+    list-style: none;
+
+}
+
+ul.points li {
+    margin-bottom: 20px;
+    padding-left: 65px;
+    position: relative;
+}
+
+ul.points li > img {
+     width: 50px;
+     height: 50px;
+     position: absolute;
+     left: 0px;
+     top: 0px;
+}
+
+ul.points li > h6 {
+    font-size: 15px;
+    margin-bottom: 3px;
+}
+
+ul.points li > span {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
+ul.points li.action {
+    padding-top:15px;
 }
 
 /* Section Styles  */
@@ -73,7 +134,7 @@ h1 {
 #intro .video {
     width: 580px;
     height: 325px;
-    padding:10px 10px 10px 10px;
+    padding:5px 5px 5px 5px;
     background-color: #fff;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
@@ -89,55 +150,62 @@ h1 {
 
 #intro h2 {
     color:#fff;
-    margin-bottom: 25px;
     margin-top: 15px;
     font-weight: 400;
     text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
     line-height: 110%;
+    margin-bottom: 10px;
 }
 
 #intro p {
 	padding:15px 0;
 	color:#fff;
-}
-
-#about {
-	background:#fff;
-}
-
-#team {
-	background:#000;
-	background:rgba(0,0,0,0.8);
-}
-#contact {
-	background:#202020;
-}
-
-#tuition {
-	background:#eee;
-}
-#partners {
-	background:#fff;
-}
-
-.flat-btn {
-    background-color: #1c1c1c;
-    opacity: 0.75;
-    border: none;
-    color:#ffffff;
-    padding: 10px 15px 10px;
     text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
-    -webkit-border-radius: 2px;
-    -moz-border-radius: 2px;
-    border-radius: 2px;
-    font-size: 18px;
-    display: inline-block;
+    font-size: 15px;
 }
 
-.flat-btn:hover {
-    opacity: 0.9;
-    text-decoration: none;
-    color: white;
+#proof {
+    background-color: #F7F5F2;
+    -webkit-box-shadow: 0 -5px 25px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 -5px 25px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 -5px 25px rgba(0, 0, 0, 0.3);
+    border-bottom: 1px dotted #DBDBDB;
+    text-align: center;
+    overflow: hidden;
+    height:55px;
+}
+
+#proof img{
+    margin-right:35px;
+}
+
+#about, #safe, #team {
+	background:#fff;
+}
+
+#about h2 {
+    padding-bottom: 20px;
+}
+
+#about .container {
+    margin-bottom: 30px;
+    font-weight: normal;
+    padding-top:40px;
+    border-bottom: 1px dotted #DBDBDB;
+    min-height: 540px;
+}
+
+#about .points {
+    width: 420px;
+}
+
+#about .laptop-image {
+    position: absolute;
+    right: -30px;
+    top: 50px;
+    width: 700px;
+    height: 490px;
+    z-index: 0;
 }
 
 
@@ -214,14 +282,22 @@ h1 {
         width: 490px;
         height: 275px;
     }
+
+    #about .laptop-image {
+        right: -200px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 979px) {
 
+    body {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
     #intro .video {
         width: 400px;
         height: 224px;
-
     }
 
     #intro .video iframe {
@@ -229,17 +305,17 @@ h1 {
         height: 224px;
     }
 
-    body {
-        padding-left: 0px;
-        padding-right: 0px;
-	}
-
     #intro h2 {
-        font-size: 20px;
+        font-size: 21px;
     }
 
     #intro .info {
         width: 290px;
+    }
+
+    #about .laptop-image {
+        width: 508px;
+        height: 370px;
 
     }
 }
@@ -274,6 +350,9 @@ h1 {
     }
 
     #intro h2 {
+        text-align: center;
+        width: 300px;
+        display: block;
         font-size: 20px;
     }
 
@@ -292,12 +371,29 @@ h1 {
 
     #intro .video iframe {
         width: 280px;
-        height: 155px;
+        height: 158px;
     }
 
     #intro iframe {
         width:280px;
         height: 158px;
+    }
+
+    #proof {
+        display: none;
+    }
+
+
+    #about .container {
+        padding-top: 10px;
+    }
+
+    #about .points {
+        width: 100%;
+    }
+
+    #about .laptop-image {
+        display: none;
     }
 }
 
