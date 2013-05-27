@@ -114,7 +114,7 @@ ul.points li > span {
 
 
 ul.points li.action {
-    padding:15px 0;
+    padding:15px 0 25px 0;
 }
 
 /* Section Styles  */
@@ -300,7 +300,7 @@ ul.points li.action {
     }
 }
 
-@media (min-width: 768px) and (max-width: 979px) {
+@media  (max-width: 979px) {
 
     body {
         padding-left: 0px;
