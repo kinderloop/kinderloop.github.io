@@ -3,7 +3,7 @@
 }
 
 body {
-	background: url('../img/bg.jpg') #000 top center fixed no-repeat;
+	background: url('../img/bg.jpg') #000 top fixed center no-repeat;
 	font-family:'Open Sans',sans-serif;
     background-position: center center;
     background-attachment: fixed;
@@ -62,9 +62,6 @@ h2 {
 	color:#fff;
 }
 
-
-.carousel-caption { position: relative; }
-
 .space-bottom {
     margin-bottom: 30px; /* define margin as you see fit */
 }
@@ -117,6 +114,41 @@ ul.points li.action {
     padding:15px 0 25px 0;
 }
 
+.carousel {
+  margin-top:20px;
+  position:absolute;
+  width: 380px;
+}
+
+#testimonial_section{
+  background-color:#fff;
+  width:100%;
+  overflow:hidden;
+  padding-bottom:30px;
+}
+
+#testimonial_section .row{
+  height:570px;
+  width: 380px;
+}
+
+.content-testimonial img{
+  margin-left:40px;
+  margin-bottom:15px;
+}
+
+.item{
+  height:400px;
+}
+
+.testimonial-image{
+  position:absolute;
+  right:0;
+  top:60px;
+  width:790px;
+  height:517.09090909px;
+}
+
 /* Section Styles  */
 
 #intro {
@@ -128,7 +160,6 @@ ul.points li.action {
     width: 221px;
     height: 57px;
 }
-
 
 #intro .info {
     width: 410px;
@@ -215,12 +246,6 @@ ul.points li.action {
     z-index: 0;
 }
 
-
-#testimonials {
-    background:#fff;
-}
-
-
 /* Navbar Styles  */
 
 .navbar-inner {
@@ -283,6 +308,27 @@ ul.points li.action {
 	-webkit-box-shadow:none;
 }
 
+/* footer styles */
+
+footer .wrap{
+  width:1170px;
+  margin:auto;
+  position:relative;
+}
+
+footer ul{
+  list-style:none;
+  float:left;
+  width:20%;
+  margin:20px 5% 20px 0;
+}
+
+footer a{
+  text-decoration: none;
+  color: #555;
+  font-size: 14px;
+}
+
 @media (max-width: 1200px) {
 
     #intro .video {
@@ -297,6 +343,16 @@ ul.points li.action {
 
     #about .laptop-image {
         right: -200px;
+    }
+    .testimonial-image{
+      right:-30;
+      top:70px;
+      width:550px;
+      height:360px;
+    }
+
+    footer .wrap{
+      width:920px;
     }
 }
 
@@ -332,6 +388,17 @@ ul.points li.action {
 
     #about .container {
         min-height: auto;
+    }
+
+    .testimonial-image{
+      right:-30;
+      top:70px;
+      width:325px;
+      height:212.727271883px;
+    }
+
+    footer .wrap{
+      width:750px;
     }
 }
 
@@ -409,6 +476,19 @@ ul.points li.action {
 
     #about .laptop-image {
         display: none;
+    }
+
+    .testimonial-image{
+      display:none;
+    }
+
+    #testimonial_section .row{
+      margin:auto;
+      height:420px;
+    }
+
+    footer .wrap{
+      width:500px;
     }
 }
 
