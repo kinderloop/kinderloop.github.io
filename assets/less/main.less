@@ -138,7 +138,6 @@ ul.points {
   }
 
   .container {
-
     min-height: 450px;
   }
 
@@ -256,8 +255,8 @@ ul.points {
   }
 
   .video {
-    width: 580px;
-    height: 325px;
+    width: 490px;
+    height: 275px;
     padding:5px 5px 5px 5px;
     background-color: #fff;
     -webkit-border-radius: 3px;
@@ -269,6 +268,9 @@ ul.points {
 
     iframe {
       background-color: #1c1c1c;
+
+      width: 490px;
+      height: 275px;
     }
   }
 
@@ -318,6 +320,8 @@ ul.points {
   ========
 */
 
+#intro {
+}
 
 #about {
   padding:20px 0;
@@ -330,61 +334,40 @@ ul.points {
   }
 }
 
-#secure .image {
-  margin-left: -95px;
+#secure {
+  .image {
+    margin-left: -95px;
+  }
 }
 
-#intro {
-  .video {
-    width: 490px;
-    height: 275px;
+#testimonial{
+  background-color: #fff;
 
-    iframe {
-      width: 490px;
-      height: 275px;
+  .content {
+    width: 380px;
+    padding-top: 20px;
+
+  }
+  .image {
+    left:390px;
+  }
+
+  .content-testimonial {
+    img {
+      margin: 0 auto;
+      display: block;
+      width: 200px;
+      height: 200px;
     }
   }
-}
 
-#testimonial_section{
-  background-color:#fff;
-  width:100%;
-  overflow:hidden;
-  padding-bottom:30px;
-
-  .carousel {
-    margin-top:0px;
-    position:absolute;
-    width: 380px;
+  .carousel-control {
+    line-height: 27px;
   }
-
-  .row{
-    height:570px;
-    width: 380px;
-  }
-
-  .content-testimonial img{
-    margin-left:40px;
-    margin-bottom:15px;
-  }
-
-  .item{
-    height:400px;
-  }
-
-  .testimonial-image{
-    right:0px;
-    top:70px;
-    width:325px;
-    height:212.727271883px;
-    position:absolute;
-  }
-
 }
 
 footer {
   background-color: #F7F5F2;
-
   overflow: auto;
 }
 
@@ -450,6 +433,11 @@ footer a{
       margin-left: -270px;
     }
   }
+
+  #testimonial {
+    .image {
+    }
+  }
 }
 
 @media (max-width: 767px) {
@@ -511,6 +499,7 @@ footer a{
   }
 
   #about{
+    padding: 0px;
 
     &.section .content {
       width: 100%;
@@ -527,18 +516,35 @@ footer a{
     }
   }
 
-
   #secure {
     .container {
       padding: 10px 0;
       min-height: auto;
+    }
 
-      .content {
-        width: 100%;
-        width: 100%;
-        position: relative;
-        top:0px;
-      }
+    .content {
+      width: 100%;
+      width: 100%;
+      position: relative;
+      top:0px;
+    }
+
+    .image {
+      display: none;
+    }
+  }
+
+  #testimonial {
+
+    .container {
+      padding: 10px 0;
+      min-height: auto;
+    }
+
+    .content {
+      padding: 0px;
+      float: none;
+      width: 100%;
     }
 
     .image {

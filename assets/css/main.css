@@ -206,8 +206,8 @@ ul.points li.action {
   margin-right: 15px;
 }
 #intro .video {
-  width: 580px;
-  height: 325px;
+  width: 490px;
+  height: 275px;
   padding: 5px 5px 5px 5px;
   background-color: #fff;
   -webkit-border-radius: 3px;
@@ -219,6 +219,8 @@ ul.points li.action {
 }
 #intro .video iframe {
   background-color: #1c1c1c;
+  width: 490px;
+  height: 275px;
 }
 #intro h2 {
   color: #fff;
@@ -270,42 +272,24 @@ ul.points li.action {
 #secure .image {
   margin-left: -95px;
 }
-#intro .video {
-  width: 490px;
-  height: 275px;
-}
-#intro .video iframe {
-  width: 490px;
-  height: 275px;
-}
-#testimonial_section {
+#testimonial {
   background-color: #fff;
-  width: 100%;
-  overflow: hidden;
-  padding-bottom: 30px;
 }
-#testimonial_section .carousel {
-  margin-top: 0px;
-  position: absolute;
+#testimonial .content {
   width: 380px;
+  padding-top: 20px;
 }
-#testimonial_section .row {
-  height: 570px;
-  width: 380px;
+#testimonial .image {
+  left: 390px;
 }
-#testimonial_section .content-testimonial img {
-  margin-left: 40px;
-  margin-bottom: 15px;
+#testimonial .content-testimonial img {
+  margin: 0 auto;
+  display: block;
+  width: 200px;
+  height: 200px;
 }
-#testimonial_section .item {
-  height: 400px;
-}
-#testimonial_section .testimonial-image {
-  right: 0px;
-  top: 70px;
-  width: 325px;
-  height: 212.727271883px;
-  position: absolute;
+#testimonial .carousel-control {
+  line-height: 27px;
 }
 footer {
   background-color: #F7F5F2;
@@ -403,6 +387,9 @@ footer a {
   #proof {
     display: none;
   }
+  #about {
+    padding: 0px;
+  }
   #about.section .content {
     width: 100%;
     padding: 0px;
@@ -418,12 +405,24 @@ footer a {
     padding: 10px 0;
     min-height: auto;
   }
-  #secure .container .content {
+  #secure .content {
     width: 100%;
     position: relative;
     top: 0px;
   }
   #secure .image {
+    display: none;
+  }
+  #testimonial .container {
+    padding: 10px 0;
+    min-height: auto;
+  }
+  #testimonial .content {
+    padding: 0px;
+    float: none;
+    width: 100%;
+  }
+  #testimonial .image {
     display: none;
   }
 }
