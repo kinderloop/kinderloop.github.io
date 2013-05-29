@@ -23,7 +23,7 @@ h1 {
 h2 {
   font-size: 26px;
   font-weight: normal;
-  line-height: 29px;
+  line-height: 32px;
 }
 .center {
   float: none;
@@ -107,7 +107,6 @@ ul.points li.action {
   padding: 10px 0 0px 55px;
 }
 .section {
-  border-bottom: 1px dotted #DBDBDB;
   background: #fff;
   font-weight: normal;
 }
@@ -120,6 +119,7 @@ ul.points li.action {
 }
 .section .container {
   min-height: 450px;
+  border-bottom: 1px dotted #DBDBDB;
 }
 .section.left .content {
   width: 380px;
@@ -252,15 +252,15 @@ ul.points li.action {
   height: 55px;
 }
 #proof img {
-  margin-right: 10px;
+  margin-right: 22px;
   padding-top: 4px;
 }
 /*
-  ========
-  RESPONSE
-  ========
+  =====
+  ABOUT
+  =====
 */
-#about {
+#about .container {
   padding: 20px 0;
 }
 #about .content {
@@ -269,11 +269,25 @@ ul.points li.action {
 #about .image {
   right: -115px;
 }
+/*
+  ======
+  SECURE
+  ======
+*/
 #secure .image {
   margin-left: -95px;
 }
+/*
+  ===========
+  TESTIMONIAL
+  ===========
+*/
 #testimonial {
   background-color: #fff;
+}
+#testimonial .container {
+  min-height: 480px;
+  border-bottom: none;
 }
 #testimonial .content {
   width: 380px;
@@ -281,36 +295,52 @@ ul.points li.action {
 }
 #testimonial .image {
   left: 390px;
+  bottom: 0px;
+  top: auto;
 }
 #testimonial .content-testimonial img {
-  margin: 0 auto;
+  margin: 0 auto 10px auto;
   display: block;
   width: 200px;
   height: 200px;
 }
+#testimonial .content-testimonial blockquote {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+}
+#testimonial .content-testimonial blockquote small {
+  padding-top: 5px;
+}
 #testimonial .carousel-control {
   line-height: 27px;
+  top: 90px;
 }
-footer {
+/*
+  ======
+  FOOTER
+  ======
+*/
+.footer {
   background-color: #F7F5F2;
-  overflow: auto;
+  border-top: 1px dotted #DBDBDB;
+  color: #7B7B7B;
+  padding: 20px 0 20px 0;
 }
-footer .wrap {
-  width: 750px;
-  margin: auto;
-  position: relative;
+.footer .company {
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
 }
-footer ul {
-  list-style: none;
-  float: left;
-  width: 20%;
-  margin: 20px 5% 20px 0;
+.footer .links {
+  text-align: right;
 }
-footer a {
-  text-decoration: none;
-  color: #555;
-  font-size: 14px;
+.footer .links a {
+  margin-left: 10px;
 }
+/*
+  ==========
+  RESPONSIVE
+  ==========
+*/
 @media (max-width: 1200px) {
   
 }
@@ -347,6 +377,13 @@ footer a {
   }
   .navbar .nav > li > a.scroller {
     display: none;
+  }
+  ul.points li.action {
+    text-align: center;
+    padding-left: 0px;
+  }
+  .footer .links {
+    text-align: left;
   }
   #intro {
     margin-top: 0px;
@@ -399,11 +436,11 @@ footer a {
   }
   #about .container {
     padding: 10px 0;
-    min-height: auto;
+    min-height: 0px;
   }
   #secure .container {
     padding: 10px 0;
-    min-height: auto;
+    min-height: 0px;
   }
   #secure .content {
     width: 100%;
@@ -415,7 +452,7 @@ footer a {
   }
   #testimonial .container {
     padding: 10px 0;
-    min-height: auto;
+    min-height: 0px;
   }
   #testimonial .content {
     padding: 0px;

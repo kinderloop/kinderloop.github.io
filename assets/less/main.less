@@ -14,7 +14,6 @@ body {
   background-color: #211922;
 }
 
-
 h1 {
   font-weight:300;
   font-size:50px;
@@ -27,7 +26,7 @@ h1 {
 h2 {
   font-size:26px;
   font-weight: normal;
-  line-height: 29px;
+  line-height: 32px;
 }
 
 .center {
@@ -38,6 +37,7 @@ h2 {
 .container {
   max-width: 940px;
 }
+
 .main-container, .container {
   position:relative;
 }
@@ -124,7 +124,7 @@ ul.points {
 
 .section {
 
-  border-bottom: 1px dotted #DBDBDB;
+
   background:#fff;
   font-weight: normal;
 
@@ -139,6 +139,7 @@ ul.points {
 
   .container {
     min-height: 450px;
+    border-bottom: 1px dotted #DBDBDB;
   }
 
   &.left {
@@ -309,22 +310,22 @@ ul.points {
   height:55px;
 
   img{
-    margin-right:10px;
+    margin-right:22px;
     padding-top: 4px;
   }
 }
 
 /*
-  ========
-  RESPONSE
-  ========
+  =====
+  ABOUT
+  =====
 */
 
-#intro {
-}
-
 #about {
-  padding:20px 0;
+  .container {
+    padding:20px 0;
+  }
+
 
   .content {
     padding-top: 20px;
@@ -334,61 +335,99 @@ ul.points {
   }
 }
 
+
+/*
+  ======
+  SECURE
+  ======
+*/
+
 #secure {
   .image {
     margin-left: -95px;
   }
 }
 
+/*
+  ===========
+  TESTIMONIAL
+  ===========
+*/
+
 #testimonial{
   background-color: #fff;
+
+  .container {
+    min-height: 480px;
+    border-bottom: none;
+  }
 
   .content {
     width: 380px;
     padding-top: 20px;
-
   }
   .image {
     left:390px;
+    bottom: 0px;
+    top:auto;
   }
 
   .content-testimonial {
     img {
-      margin: 0 auto;
+      margin: 0 auto 10px auto;
       display: block;
       width: 200px;
       height: 200px;
+    }
+
+    blockquote {
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 20px;
+      small {
+        padding-top:5px;
+      }
     }
   }
 
   .carousel-control {
     line-height: 27px;
+    top:90px;
   }
 }
 
-footer {
+
+/*
+  ======
+  FOOTER
+  ======
+*/
+
+
+.footer {
   background-color: #F7F5F2;
-  overflow: auto;
+  border-top: 1px dotted #DBDBDB;
+  color: #7B7B7B;
+  padding:20px 0 20px 0;
+
+  .company {
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+  }
+
+  .links {
+    text-align: right;
+    a {
+      margin-left: 10px;
+    }
+  }
 }
 
-footer .wrap{
-  width:750px;
-  margin:auto;
-  position:relative;
-}
 
-footer ul{
-  list-style:none;
-  float:left;
-  width:20%;
-  margin:20px 5% 20px 0;
-}
-
-footer a{
-  text-decoration: none;
-  color: #555;
-  font-size: 14px;
-}
+/*
+  ==========
+  RESPONSIVE
+  ==========
+*/
 
 
 @media (max-width: 1200px) {
@@ -449,6 +488,16 @@ footer a{
 
   .navbar .nav > li > a.scroller {
     display: none;
+  }
+  ul.points li.action {
+    text-align: center;
+    padding-left: 0px;
+  }
+
+  .footer {
+    .links {
+      text-align: left;
+    }
   }
 
   #intro {
@@ -512,14 +561,15 @@ footer a{
 
     .container {
       padding: 10px 0;
-      min-height: auto;
+      min-height: 0px;
     }
   }
 
   #secure {
+
     .container {
       padding: 10px 0;
-      min-height: auto;
+      min-height: 0px;
     }
 
     .content {
@@ -538,7 +588,7 @@ footer a{
 
     .container {
       padding: 10px 0;
-      min-height: auto;
+      min-height: 0px;
     }
 
     .content {
