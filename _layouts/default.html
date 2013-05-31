@@ -1,23 +1,25 @@
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
-    <title>kinderloop</title>
+    <title>{{ page.title }}</title>
     <link rel="shortcut icon" href="/assets/img/kinderloop.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
     <link href="assets/ext/bootstrap-2.3.1/css/bootstrap.css" rel="stylesheet">
     <link href="assets/ext/bootstrap-2.3.1/css/responsive.css" rel="stylesheet">
-    <link href="assets/ext/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <script src="assets/ext/bootstrap-2.3.1/js/bootstrap.js"></script>
-
+    <link href="assets/ext/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/css/kinderloop.css" rel="stylesheet">
     <link href="assets/css/site.css" rel="stylesheet">
+
 
     <!-- IE Fix for HTML5 Tags -->
     <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 </head>
-<body>
+<body class="{{ page.class }}">
 <div class="navbar navbar-inverse navbar-fixed-top">
     <div class="navbar-inner">
         <div class="container">
@@ -29,15 +31,17 @@
             <a class="brand" href="index.html"></a>
             <div class="nav-collapse collapse">
                 <ul class="nav pull-right">
-                    <li><a href="index.html">Home</a></li>
-                    <li class="active"><a href="about.html">About</a></li>
-                    <li><a href="privacy.html">Privacy</a></li>
+                    <li {% if page.url == '/index.html' %} class="active" {% endif %}><a href="index.html">Home</a></li>
+                    <li {% if page.url == '/about.html' %} class="active" {% endif %}><a href="about.html">About</a></li>
+                    <li {% if page.url == '/privacy.html' %} class="active" {% endif %}><a href="privacy.html">Privacy</a></li>
                     <li><a href="http://app.kinderloop.com">Login</a></li>
                 </ul>
             </div>
         </div>
     </div>
 </div>
+
+{{ content }}
 
 <!-- footer -->
 <div id="footer" class="footer">
