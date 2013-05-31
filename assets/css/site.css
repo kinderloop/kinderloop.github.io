@@ -397,11 +397,11 @@ body.index #footer {
   }
 }
 #index #index-secure .image {
-  right: 460px;
+  right: 490px;
 }
 @media (max-width: 979px) {
   #index #index-secure .image {
-    right: 365px;
+    right: 425px;
   }
 }
 #index #index-testimonial {
