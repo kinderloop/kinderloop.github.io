@@ -1,0 +1,193 @@
+@import '../ext/bootstrap-2.3.1/less/mixins.less';
+@import '../ext/bootstrap-2.3.1/less/variables.less';
+
+html, body {
+}
+
+
+
+body {
+  padding-top: 51px;
+  background-color:#F7F5F2;
+
+  @media (max-width: @navbarCollapseWidth) {
+    padding-top: 0px;
+  }
+}
+
+.section-break {
+  padding-top:18px;
+  margin-bottom: 18px;
+}
+
+#footer {
+  position: relative;
+  margin-top: 30px;
+  padding-top:10px;
+  padding-bottom: 30px;
+
+  > .container {
+    border-top: 1px dotted #DBDBDB;
+    color: #aaa;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 1.0);
+    padding-top: 10px;
+  }
+
+  ul {
+    list-style: none;
+    margin-left: 0px;
+    font-size: 12px;
+    > li {
+      float: left;
+      padding-right: 21px;
+    }
+  }
+}
+
+h2 {
+  font-weight: normal;
+
+  &.top-header {
+    margin:20px 0 20px 0;
+    padding-bottom: 30px;
+    padding-top:5px;
+    border-bottom: 1px dotted #DBDBDB;
+  }
+}
+
+h3{
+  font-weight: normal;
+  margin: 5px 0 10px 0;
+
+  i {
+    margin-right: 5px;
+  }
+}
+
+.block {
+  margin-bottom:20px;
+}
+
+.text-green {
+  color: rgb(120, 185, 38);
+}
+
+.navbar {
+
+  .navbar-inner {
+    #gradient > .vertical(#99D34F, #8CC248);
+    border-color: #7DA941;
+
+    .btn-navbar {
+      border-color: #7DA941;
+      #gradient > .vertical(#99D34F, #8CC248);
+
+      &:hover {
+        background-color: #8DC449;
+      }
+    }
+
+    .brand {
+      background-image: url("../img/logo-34h@2x.png");
+      background-repeat: no-repeat;
+      background-position: 0% 0%;
+      width: 128px;
+      height: 30px;
+      background-size: 128px 34px;
+      padding: 0px;
+      margin: 4px 0 0 0px;
+      span {
+        display: none;
+      }
+    }
+
+    .nav {
+
+      .anchor-reset() {
+        text-shadow: 0 1px 1px rgba(255, 255, 255, 0.4);
+        background-color: transparent;
+        color: #48740d;
+      }
+
+      > li {
+        .anchor-reset() {
+          text-shadow: 0 1px 1px rgba(255, 255, 255, 0.4);
+          background-color: transparent;
+          color: #48740d;
+        }
+
+        &.active {
+          > a, a:hover, a.focus {
+            .anchor-reset();
+          }
+        }
+
+        > a, a:hover, a:focus {
+          .anchor-reset();
+        }
+      }
+    }
+
+    @media (max-width: @navbarCollapseWidth) {
+      .nav-collapse .nav {
+        margin-top: 10px;
+        margin-bottom: 5px;
+
+      }
+      .nav-collapse .nav li {
+        line-height: 10px;
+      }
+
+      .nav-collapse .nav .active > a {
+        .box-shadow(none);
+      }
+    }
+  }
+}
+
+#about {
+
+  .person {
+    min-height: 107px;
+    margin-bottom:20px;
+    position: relative;
+
+
+    .profile {
+      float: left;
+      margin-right:20px;
+      width:107px;
+      height:107px;
+    }
+
+    .name {
+      font-size: 16px;
+      font-weight: bold;
+      text-shadow: 0 1px 1px rgba(255, 255, 255, 0.4);
+      padding-top: 10px;
+      margin-bottom:3px;
+    }
+
+    .description {
+      margin-top:10px;
+
+      max-width: 230px;
+      margin-left: 127px;
+    }
+
+    .contact a {
+      color: #aaa;
+      text-shadow: 0 1px 1px #ffffff;
+    }
+  }
+
+  .vcard .org {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  .office {
+    margin-top:20px;
+  }
+}
+
