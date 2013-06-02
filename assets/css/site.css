@@ -205,8 +205,9 @@ body.index #footer {
 }
 #index .section h2 {
   position: relative;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
   margin-bottom: 0px;
+  font-size: 26px;
 }
 #index .section .content {
   padding: 30px 0;
@@ -321,7 +322,7 @@ body.index #footer {
   font-weight: 400;
   text-shadow: 0 0 5px #094a64;
   line-height: 110%;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
 }
 #index #index-intro p {
   padding: 13px 0;
