@@ -27,7 +27,6 @@
 }
 body {
   padding-top: 51px;
-  background-color: #F7F5F2;
 }
 @media (max-width: 767px) {
   body {
@@ -436,37 +435,32 @@ body.index #footer {
     left: 385px;
   }
 }
-#about .person {
-  min-height: 107px;
-  margin-bottom: 20px;
-  position: relative;
+#about .profile {
+  margin-bottom: 10px;
 }
-#about .person .profile {
-  float: left;
-  margin-right: 20px;
-  width: 107px;
-  height: 107px;
+#about .person {
+  position: relative;
+  overflow: auto;
+  margin-bottom: 20px;
 }
 #about .person .name {
   font-size: 16px;
   font-weight: bold;
   text-shadow: 0 1px 1px rgba(255, 255, 255, 0.4);
-  padding-top: 10px;
   margin-bottom: 3px;
 }
 #about .person .description {
-  margin-top: 10px;
-  max-width: 230px;
-  margin-left: 127px;
+  margin-top: 5px;
 }
-#about .person .contact a {
+#about .person a.contact {
   color: #aaa;
   text-shadow: 0 1px 1px #ffffff;
+  display: block;
+  margin-top: 5px;
 }
 #about .vcard .org {
-  font-weight: bold;
-  margin-bottom: 5px;
+  margin-bottom: 0px;
 }
-#about .office {
-  margin-top: 20px;
+#about .vcard {
+  margin-top: 15px;
 }

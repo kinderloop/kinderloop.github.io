@@ -1,5 +1,0 @@
----
-title:  Welcome Anne
-categories: [lessons, beginner]
----
-blah
