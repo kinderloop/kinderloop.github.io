@@ -99,7 +99,7 @@ h3{
     }
 
     .brand {
-      background-image: url("../img/logo-34h@2x.png");
+      background-image: url("../img/logo-34h.png");
       background-repeat: no-repeat;
       background-position: 0% 0%;
       width: 128px;
@@ -109,6 +109,10 @@ h3{
       margin: 4px 0 0 0px;
       span {
         display: none;
+      }
+
+      @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+        background-image: url("../img/logo-34h@2x.png");
       }
     }
 

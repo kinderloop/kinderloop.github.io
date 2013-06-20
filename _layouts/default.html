@@ -13,10 +13,12 @@
     <link href="assets/css/kinderloop.css" rel="stylesheet">
     <link href="assets/css/site.css" rel="stylesheet">
 
-
-    <!-- IE Fix for HTML5 Tags -->
-    <!--[if lt IE 9]>
-    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <!--[if lt ie 9]>
+        <script type="text/javascript" src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if ie 7]>
+        <link rel="stylesheet" href="${createLinkTo(dir: '/ext/font-awesome-3.0/css', file: 'font-awesome-ie7.min.css')}">
     <![endif]-->
 </head>
 <body class="{{ page.class }}">

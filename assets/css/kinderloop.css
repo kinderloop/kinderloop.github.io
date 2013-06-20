@@ -121,7 +121,7 @@ h3 i {
   background-color: #8DC449;
 }
 .navbar .navbar-inner .brand {
-  background-image: url("../img/logo-34h@2x.png");
+  background-image: url("../img/logo-34h.png");
   background-repeat: no-repeat;
   background-position: 0% 0%;
   width: 128px;
@@ -132,6 +132,11 @@ h3 i {
 }
 .navbar .navbar-inner .brand span {
   display: none;
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .navbar .navbar-inner .brand {
+    background-image: url("../img/logo-34h@2x.png");
+  }
 }
 .navbar .navbar-inner .nav > li.active > a,
 .navbar .navbar-inner .nav > li.active a:hover,
