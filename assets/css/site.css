@@ -297,6 +297,26 @@ body.index #footer {
     left: 385px;
   }
 }
+#superlooper .superlooper {
+  margin-bottom: 20px;
+}
+#superlooper .superlooper img {
+  float: left;
+  margin-right: 10px;
+}
+#superlooper .name {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+#superlooper .description {
+  margin-top: 5px;
+}
+#superlooper .person {
+  position: relative;
+  overflow: auto;
+  margin-bottom: 20px;
+}
 #about .profile {
   margin-bottom: 10px;
 }
