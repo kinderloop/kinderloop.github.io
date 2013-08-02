@@ -16,6 +16,15 @@ class: index
                     <p>
                         Care providers quickly post news, photos, and reminders directly from their mobile devices, parents are updated in real time.
                     </p>
+					
+                    <div class="action">
+						<form action="http://app.kinderloop.com/j_spring_security_check" method="POST">
+						<input type="hidden" value="tester1" type="text" name="j_username" >
+						<input type="hidden" value="tester1" type="text" name="j_password" >
+						<input type="submit" class="btn btn-large btn-custom" value="Try a demo now"/>
+						</form>
+                    </div>
+					
                     <div class="actions">
                         <a class="flat-btn" href="https://app.kinderloop.com/quickstart">
                             <i class="icon-play"></i>
@@ -79,13 +88,7 @@ class: index
                             Get started for free
                         </a>
                     </li>
-                    <li class="action">
-						<form action="http://app.kinderloop.com/j_spring_security_check" method="POST">
-						<input type="hidden" value="tester1" type="text" name="j_username" >
-						<input type="hidden" value="tester1" type="text" name="j_password" >
-						<button id="loginButton" class="btn-primary btn btn-custom" type="button" value="Login">Try a demo now</button>
-						</form>
-                    </li>
+                    
                 </ul>
             </div>
             <img class="image" src="assets/img/screen-web-ipad.jpg" alt="Kinderloop screenshots"/>
