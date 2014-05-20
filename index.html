@@ -9,38 +9,50 @@ class: index
     <div class="jumbotron">
         <div id="index-intro" class="container">
             <div class="row">
-                <div class="span info">
-                    <h2>
-                        The private closed loop for preschools and parents {{ page.background }}
-                    </h2>
-                    <p>
-                        Capture a child's development by quickly posting news, photos and reminders to YOUR private Kinderloop, linked parents are updated in real time.
-                    </p>
-					
-                    <div class="action">
+            	<div class="info">
+                <h2>Save time, Save money create YOUR Kinderloop</h2>
+                <p>Record a child's development by quickly posting news, photos and reminders to YOUR secure Kinderloop, only linked parents are updated, all in real time.</p>
+                <div class="action">
 						<form action="http://app.kinderloop.com/j_spring_security_check" method="POST">
 						<input type="hidden" value="tester28" type="text" name="j_username" >
 						<input type="hidden" value="tester28" type="text" name="j_password" >
 						<input type="submit" class="flat-btn" value="See a secure demo" style="width:212px"/>
 						</form>
                     </div>
+                <!--vimeo video feed-->
+               <script type="text/javascript">
+				$(function() {
+					var vitemarray = new Array();
+					$.getJSON('http://vimeo.com/api/v2/channel/kinderloooop/videos.json?callback=?', {format: "json"}, function(videoList) {
+						if(videoList.length > 1) {
+							for (i=0; i < 6; i += 1) {
+								vitem = videoList[Math.floor(Math.random()*videoList.length)];
+								if($.inArray(vitem, vitemarray) > -1){
+									i--
+								}else{
+									vitemarray.push(vitem);
+									$.getJSON('http://vimeo.com/api/oembed.json?url=http%3A//vimeo.com/' + vitem.id + '&title=true&byline=false&portrait=false&width=310&height=170&callback=?', {format: "json"}, function(videoProperties) {
+											$("#vimeoRecent").append('<div class="videoThird">' + videoProperties.html + '</div>')
+									});  
+								}
+							}
+						}
+					});
+				});
+				</script>
+				<!--//end-->
+                	<div id="vimeoRecent" style="margin:30px 0"></div>
 					
                     <div class="actions">
                         <a class="btn btn-large btn-custom" href="https://app.kinderloop.com/quickstart">
                             <i class="icon-play"></i>
                             Start YOUR private Kinderloop now
                         </a>
+                        <a class="btn btn-large btn-custom" href="#">
+                            <i class="icon-play"></i>
+                            Parents. click here
+                        </a>
                     </div>
-                </div>
-                <div class="pull-right video">
-                    <iframe src="http://player.vimeo.com/video/88740383?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;color=ffffff"
-                            width="500"
-                            height="281"
-                            frameborder="0"
-                            webkitAllowFullScreen
-                            mozallowfullscreen
-                            allowFullScreen>
-                    </iframe>
                 </div>
             </div>
         </div>
@@ -216,3 +228,19 @@ class: index
 
     </div>
 </div>
+<!--form popup-->
+<div id="popup">
+<script type="text/javascript" src="http://form.jotform.co/jsform/41381433409855"></script>
+<p><a href="#" id="closeit">Close</a></p>
+</div>
+<script>	
+$(document).ready(function() {
+	$('.btn-parents').click(function() {
+		$('#popup').fadeIn();
+	});
+	$('#closeit').click(function() {
+		$('#popup').fadeOut();
+	});
+});
+</script>
+<!--END popup-->

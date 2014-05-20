@@ -7,6 +7,24 @@ body.index {
   #footer {
     margin-top: -10px;
   }
+  
+  #popup {
+	width:310px;
+	height:500px;
+	position:fixed;
+    top: 50%;
+    left: 50%;
+	margin-top: -250px;
+    margin-left: -150px;
+    border: 1px solid #1C8FC2;
+    background-color: #fff;
+	display:none
+	}
+  #closeit {
+	text-align:center; 
+	display:block; 
+	margin-top:-20px
+  }
 }
 
 #index {
@@ -40,7 +58,7 @@ body.index {
         font-weight: 400;
       }
 
-      &.action {
+      &.at- {
         padding:10px 0 0px 55px;
       }
     }
@@ -138,12 +156,13 @@ body.index {
 
 
     .flat-btn {
-      background-color: #094a64;
+      background-color: #EBEBEB; /*#094a64;*/
       opacity: 0.75;
       border: none;
-      color:#ffffff;
+      color:#B1B1B1; /*#ffffff;*/
       padding: 11px 19px 11px;
-      text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+	  text-shadow:none;
+     /* text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);*/
       -webkit-border-radius: 2px;
       -moz-border-radius: 2px;
       border-radius: 2px;
@@ -157,11 +176,11 @@ body.index {
     .flat-btn:hover {
       opacity: 0.9;
       text-decoration: none;
-      color: white;
+      color: #1C8FC2;
     }
 
     .info {
-      width: 410px;
+      width: 940px;
 
       .actions .flat-btn {
         margin-right: 15px;
@@ -180,6 +199,25 @@ body.index {
         background-color: #333;
       }
     }
+	
+	.videoThird {
+		width:310px; float:left; margin: 0 5px 5px 0
+	}
+	
+	.videoThird:nth-child(3n+3) {
+		margin-right:0;
+	}
+	
+	.row {
+		position:relative; 
+		margin-left:0;
+	}
+	
+	.action {
+		position:absolute;
+		right:0;
+		top:100px;
+	}
 
     h2 {
       color:#fff;
@@ -191,7 +229,7 @@ body.index {
     }
 
     p {
-      padding:13px 0;
+      padding:13px 25% 13px 0;
       line-height: 22px;
       color:#fff;
       text-shadow: 0 0 5px #094a64;
@@ -210,14 +248,27 @@ body.index {
           height: 224px;
         }
       }
+	  
+	 
 
       h2 {
         font-size: 25px;
       }
 
       .info {
-        width: 290px;
+        width: 724px;
       }
+	  
+	  
+	  
+	  .action {
+        position:relative;
+		top:0;
+		right:auto
+        }
+		
+	  .videoThird {width:235px; float:left; margin: 0 5px 5px 0}
+	  .videoThird iframe {width:235px; height:129px}
 
     }
 
@@ -233,9 +284,14 @@ body.index {
 
       h2 {
         text-align: center;
-        width: 300px;
+        /*width: 300px;*/
         display: block;
       }
+	  
+	  p {
+      	padding-right:0;
+		text-align:center
+    	}
 
       .video {
         float: none;
@@ -249,6 +305,13 @@ body.index {
           height: 158px;
         }
       }
+	  
+	  .videoThird {width:290px; float:none; margin: 0 auto 5px}
+	  .videoThird iframe {width:290px; height:159px}
+	  .videoThird {display:none}
+	  .videoThird:nth-child(1) {display:block !important}
+	  
+	  .action {padding:0}
 
     }
   }
