@@ -66,7 +66,7 @@ class: index
             <img src="assets/img/proof-savy.png" style="width:160px;height:50px"/>
             <img src="assets/img/proof-mt.png" style="width:116px;height:50px"/>
             <img src="assets/img/proof-care.png" style="width:87px;height:50px"/>
-            <img src="assets/img/proof-tafe.png" style="width:92px;height:50px"/>
+            <img src="assets/img/proof-bfs.png" style="width:92px;height:50px"/>
             <img src="assets/img/proof-bfs.png" style="width:90px;height:50px"/>
         </div>
     </div>
@@ -230,7 +230,8 @@ class: index
 </div>
 <!--form popup-->
 <div id="popup">
-<script type="text/javascript" src="http://form.jotform.co/jsform/41381433409855"></script>
+<iframe id="JotFormIFrame" onload="window.parent.scrollTo(0,0)" allowtransparency="true" src="http://form.jotform.co/form/41381433409855" frameborder="0" style="width:100%; height:523px; border:none;" scrolling="no"></iframe>
+<script type="text/javascript">window.handleIFrameMessage = function(e) {var args = e.data.split(":");var iframe = document.getElementById("JotFormIFrame");if (!iframe)return;switch (args[0]) {case "scrollIntoView":iframe.scrollIntoView();break;case "setHeight":iframe.style.height = args[1] + "px";break;}};if (window.addEventListener) {window.addEventListener("message", handleIFrameMessage, false);} else if (window.attachEvent) {window.attachEvent("onmessage", handleIFrameMessage);}</script>
 <p><a href="#" id="closeit">Close</a></p>
 </div>
 <script>	
