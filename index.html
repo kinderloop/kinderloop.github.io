@@ -21,18 +21,18 @@ class: index
                     </div>
                 <!--vimeo video feed-->
                <script type="text/javascript">
-				$(function() {
+				jQuery(function() {
 					var vitemarray = new Array();
-					$.getJSON('http://vimeo.com/api/v2/channel/kinderloooop/videos.json?callback=?', {format: "json"}, function(videoList) {
+					jQuery.getJSON('http://vimeo.com/api/v2/channel/kinderloooop/videos.json?callback=?', {format: "json"}, function(videoList) {
 						if(videoList.length > 1) {
 							for (i=0; i < 6; i += 1) {
 								vitem = videoList[Math.floor(Math.random()*videoList.length)];
-								if($.inArray(vitem, vitemarray) > -1){
+								if(jQuery.inArray(vitem, vitemarray) > -1){
 									i--
 								}else{
 									vitemarray.push(vitem);
-									$.getJSON('http://vimeo.com/api/oembed.json?url=http%3A//vimeo.com/' + vitem.id + '&title=true&byline=false&portrait=false&width=310&height=170&callback=?', {format: "json"}, function(videoProperties) {
-											$("#vimeoRecent").append('<div class="videoThird">' + videoProperties.html + '</div>')
+									jQuery.getJSON('http://vimeo.com/api/oembed.json?url=http%3A//vimeo.com/' + vitem.id + '&title=true&byline=false&portrait=false&width=310&height=170&callback=?', {format: "json"}, function(videoProperties) {
+											jQuery("#vimeoRecent").append('<div class="videoThird">' + videoProperties.html + '</div>')
 									});  
 								}
 							}
@@ -234,7 +234,7 @@ class: index
 <script src="http://max.jotfor.ms/static/jotform.forms.js?3.2.1906" type="text/javascript"></script>
 <script type="text/javascript">
    JotForm.init(function(){
-      $('input_3').hint('ex: myname@example.com');
+      jQuery('input_3').hint('ex: myname@example.com');
    });
 </script>
 <link href="http://max.jotfor.ms/static/formCss.css?3.2.1906" rel="stylesheet" type="text/css" />
@@ -341,12 +341,12 @@ class: index
 <p><a href="#" id="closeit">Close</a></p>
 </div>
 <script>	
-$(document).ready(function() {
-	$('.btn-parents').click(function() {
-		$('#popup').fadeIn();
+jQuery(document).ready(function() {
+	jQuery('.btn-parents').click(function() {
+		jQuery('#popup').fadeIn();
 	});
-	$('#closeit').click(function() {
-		$('#popup').fadeOut();
+	jQuery('#closeit').click(function() {
+		jQuery('#popup').fadeOut();
 	});
 });
 </script>
