@@ -231,16 +231,15 @@ class: index
 <!--form popup-->
 <div id="popup">
 <script src="http://max.jotfor.ms/static/prototype.forms.js" type="text/javascript"></script>
-<script src="http://max.jotfor.ms/static/jotform.forms.js?3.2.2033" type="text/javascript"></script>
+<script src="http://max.jotfor.ms/static/jotform.forms.js?3.2.1906" type="text/javascript"></script>
 <script type="text/javascript">
    JotForm.init(function(){
-      $('input_3').hint('ex: myname@example.com');
-      JotForm.initCaptcha('input_7');
+      jQuery('input_3').hint('ex: myname@example.com');
    });
 </script>
-<link href="http://max.jotfor.ms/static/formCss.css?3.2.2033" rel="stylesheet" type="text/css" />
-<link type="text/css" rel="stylesheet" href="http://max.jotfor.ms/css/styles/nova.css?3.2.2033" />
-<link type="text/css" media="print" rel="stylesheet" href="http://max.jotfor.ms/css/printForm.css?3.2.2033" />
+<link href="http://max.jotfor.ms/static/formCss.css?3.2.1906" rel="stylesheet" type="text/css" />
+<link type="text/css" rel="stylesheet" href="http://max.jotfor.ms/css/styles/nova.css?3.2.1906" />
+<link type="text/css" media="print" rel="stylesheet" href="http://max.jotfor.ms/css/printForm.css?3.2.1906" />
 <style type="text/css">
     .form-label{
         width:180px !important;
@@ -270,76 +269,65 @@ class: index
 
 <form class="jotform-form" action="http://submit.jotform.co/submit/41381433409855/" method="post" name="form_41381433409855" id="41381433409855" accept-charset="utf-8">
   <input type="hidden" name="formID" value="41381433409855" />
-  <div class="form-all">
+  <div class="form-all" style="width:auto !important">
     <ul class="form-section">
       <li class="form-line" id="id_6">
         <div id="cid_6" class="form-input-wide">
           <div id="text_6" class="form-html">
-            <p><strong>Either wait for a secure invite from your educator</strong> or tell us their name and we will invite them to set up their own private Kinderloop!</p>
+            <p>
+              <strong>
+                Either wait for a secure invite from your educator
+              </strong>
+              or tell us their name and we will invite them to set up their own private Kinderloop!
+            </p>
           </div>
         </div>
       </li>
-      <li class="form-line" id="id_1">
+      <li class="form-line" id="id_1" style="padding: 0 36px !important">
         <label class="form-label-top" id="label_1" for="input_1">
           Full Name
           <span class="form-required">
-            *
-          </span>
+            *</span>
         </label>
         <div id="cid_1" class="form-input-wide">
-          <span class="form-sub-label-container">
-            <input class="form-textbox validate[required]" type="text" size="10" name="q1_fullName[first]" id="first_1" />
-            <label class="form-sub-label" for="first_1" id="sublabel_first"> First Name </label>
-          </span>
-          <span class="form-sub-label-container">
-            <input class="form-textbox validate[required]" type="text" size="15" name="q1_fullName[last]" id="last_1" />
-            <label class="form-sub-label" for="last_1" id="sublabel_last"> Last Name </label>
-          </span>
+          <span class="form-sub-label-container" style="margin-right:0">
+            <input class="form-textbox validate[required]" type="text" size="10" name="q1_fullName[first]" id="first_1" style="width:auto !important" />
+            <label class="form-sub-label" for="first_1" id="sublabel_first"> First Name </label></span>
+          <span class="form-sub-label-container" style="margin-right:0">
+            <input class="form-textbox validate[required]" type="text" size="15" name="q1_fullName[last]" id="last_1" style="width:auto !important" />
+            <label class="form-sub-label" for="last_1" id="sublabel_last"> Last Name </label></span>
         </div>
       </li>
-      <li class="form-line" id="id_3">
-        <label class="form-label-top" id="label_3" for="input_3">
+      <li class="form-line" id="id_3" style="padding: 0 36px !important">
+        <label class="form-label-top" id="label_3" for="input_3" style="font-size:12px !important">
           E-mail
           <span class="form-required">
-            *
-          </span>
+            *</span>
         </label>
         <div id="cid_3" class="form-input-wide">
           <input type="email" class=" form-textbox validate[required, Email]" id="input_3" name="q3_email3" size="30" value="" />
         </div>
       </li>
-      <li class="form-line" id="id_4">
-        <label class="form-label-top" id="label_4" for="input_4">
+      <li class="form-line" id="id_4" style="padding: 0 36px !important">
+        <label class="form-label-top" id="label_4" for="input_4" style="font-size:12px !important">
           Centre Name
           <span class="form-required">
-            *
-          </span>
+            *</span>
         </label>
         <div id="cid_4" class="form-input-wide">
           <input type="text" class=" form-textbox validate[required]" data-type="input-textbox" id="input_4" name="q4_centreName" size="30" value="" />
         </div>
       </li>
-      <li class="form-line" id="id_7">
-        <label class="form-label-top" id="label_7" for="input_7"> Enter Verification Code </label>
-        <div id="cid_7" class="form-input-wide">
-          <div class="form-captcha">
-            <label for="input_7"> <img alt="Captcha - Reload if it's not displayed" id="input_7_captcha" class="form-captcha-image" style="background:url(http://max.jotfor.ms/images/loader-big.gif) no-repeat center;" src="http://max.jotfor.ms/images/blank.gif" width="150" height="41" /> </label>
-            <div style="white-space:nowrap;">
-              <input type="text" id="input_7" class="form-textbox validate[required]" name="captcha" style="width:130px;" />
-              <img src="http://max.jotfor.ms/images/reload.png" alt="Reload" align="absmiddle" style="cursor:pointer" onclick="JotForm.reloadCaptcha('input_7');" />
-              <input type="hidden" name="captcha_id" id="input_7_captcha_id" value="0" />
-            </div>
-          </div>
-        </div>
-      </li>
-      <li class="form-line" id="id_2">
+      <li class="form-line" id="id_2" style="padding: 0 36px !important">
         <div id="cid_2" class="form-input-wide">
           <div style="margin-left:186px" class="form-buttons-wrapper">
             <button id="input_2" type="submit" class="form-submit-button">
               Submit
             </button>
+            
           </div>
         </div>
+        <p><a href="#" id="closeit">Close</a></p>
       </li>
       <li style="display:none">
         Should be Empty:
