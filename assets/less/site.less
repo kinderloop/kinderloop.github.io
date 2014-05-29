@@ -472,33 +472,58 @@ body.index {
 #pricing {
 
 	#pricingRow {
-		background-color:#DEEECA; 
+		background-color:#F2F7E9; 
 		margin-left:0px;
+		padding:30px 0 20px;
 		
 		.span3 {
-			padding-top:20px;
+			padding-top:10px;
+		}
+		
+		h4 ul {
+			margin-top:5px;
+			margin-left:0;
 		}
 		
 		h4 ul li {
 			font-weight:normal;
+			color:#000;
+			background: url("/assets/img/tickbullet.gif") 0 center no-repeat;
+			color: #000000;
+			font-weight: 400;
+			list-style: none outside none;
+			padding-left: 25px;
 		}
 	}
 	
   .price {
-    background-color: #0088CC;
-    border: 1px solid #FFFFFF;
-    padding: 30px;
-    float: left;
+    background-color: #90C24F;
+    border: medium none;
+    border-radius: 10px;
+    float: right;
+    padding: 80px 50px 30px;
     text-align: center;
 
     h1 {
-      margin: 0px 0px 5px 0px;
-	  text-shadow: 1px 2px 2px #333; color:#fff
+      color: #FFFFFF;
+      font-size: 140px;
+      margin: 0 0 55px;
+      text-shadow: none;
     }
 	span {
 		color:#fff;
 	}
   }
+  
+  @media (max-width: 767px) {
+      #pricingRow {
+	  	padding:30px 20px;
+	  }
+	  
+	  .price {
+        float:none;
+      }
+    }
 }
 
 
