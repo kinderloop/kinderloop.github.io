@@ -75,7 +75,7 @@
         })();
     </script>
     <!-- End Inspectlet Embed Code -->
-<meta name="google-translate-customization" content="1d057c6384624422-d8d4712a956baaa3-g1f7bf90b9f5def54-12"></meta>
+
 </head>
 <body class="{{ page.class }}">
 <div class="navbar navbar-inverse navbar-fixed-top">
@@ -129,11 +129,6 @@
         </div>
     </div>
 </div>
-<div id="google_translate_element"></div><script type="text/javascript">
-function googleTranslateElementInit() {
-  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
-}
-</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 <!-- end footer -->
 
 
