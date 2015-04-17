@@ -60,13 +60,8 @@ class: index
     <!-- ends intro -->
 
     <div id="index-proof">
-        <div class="container">
-            <img src="assets/img/proof-parenting.png" style="width:107px;height:50px"/>
-            <img src="assets/img/proof-bap.png" style="width:122px;height:50px"/>
-            <img src="assets/img/proof-savy.png" style="width:160px;height:50px"/>
-            <img src="assets/img/proof-mt.png" style="width:116px;height:50px"/>
-            <img src="assets/img/proof-care.png" style="width:87px;height:50px"/>
-            <img src="assets/img/proof-bfs.png" style="width:66px;height:50px"/>
+        <div class="container" style="line-height: 55px;text-shadow: 1px 1px #fff;font-size: 20px;color: #797676;">
+            Join over <span id="numKinderloopers"><i class="fa fa-spinner fa-spin"></i> people worldwide who love Kinderloop
         </div>
     </div>
 
@@ -379,6 +374,9 @@ jQuery(document).ready(function() {
 	jQuery('#closeit').click(function() {
 		jQuery('#popup').fadeOut();
 	});
+	setTimeout(function() {
+		$('#numKinderloopers').html('51,544');
+	}, 1000);
 });
 </script>
 <!--END popup-->
