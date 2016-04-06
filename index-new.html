@@ -276,17 +276,17 @@ $(document).ready(function() {
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title">Families</h4>
+        <h4 class="modal-title">Welcome families</h4>
       </div>
       <div class="modal-body">
         <p>We would love to touch base with your educator to help them take the next step with Kinderloop, please provide their details below. Or please wait for a secure email invite if your educator already has their own private Kinderloop.</p>
        <form action="https://formspree.io/families@kinderloop.com" method="post" id="klform">
-        <p><input type="text" name="name" class="frmInput" placeholder="Your Name"></p>
-        <p><input type="email" name="_replyto" class="frmInput" placeholder="Your Email"></p>
-        <p><input type="text" name="centre" class="frmInput" placeholder="Centre Name & Location"></p>
+        <p><input type="text" name="name" class="frmInput" placeholder="Your Name *" style= "width:95%"></p>
+        <p><input type="email" name="_replyto" class="frmInput" placeholder="Your Email *" style= "width:95%"></p>
+        <p><input type="text" name="centre" class="frmInput" placeholder="Centre Name & Location *" style= "width:95%"></p>
         <input type="hidden" name="_next" value="//kinderloop.com/thanks.html" />
         <input type="text" name="_gotcha" style="display:none" />
-        <p style="text-align:right"><input type="submit" value="Send" id="frmSubmit" class="btn-custom"></p>
+        <p style="text-align:right"><input type="submit" value="Send" id="frmSubmit" class="btn btn-custom"></p>
 </form>
       </div>
       <div class="modal-footer">
