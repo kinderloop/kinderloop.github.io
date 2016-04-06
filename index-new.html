@@ -1,0 +1,298 @@
+---
+layout: default
+title: Early Childhood reporting/EYLF documentation made simple, connecting childcare providers, educators & teachers with family, Kinderloop
+class: index
+---
+<div id="index">
+	<!--hero-->
+    <div class="hero">
+    	<div class="container">
+
+        	<h2>Early childhood documentation has evolved!</h2>
+            <p>Document a child's development effortlessly to YOUR private Kinderloop,<br />
+            linked family are updated and engaged in real time.</p>
+            <div class="actions">
+                        <a class="btn btn-large btn-custom" href="https://app.kinderloop.com/quickstart">
+                            <i class="fa fa-play"></i>
+                            Educators, start your free trial today
+                        </a>
+                        
+</div>
+        </div>
+    </div>
+
+    <!-- #intro -->
+    <div class="jumbotron">
+        <div id="index-intro" class="container">
+            <div class="row">
+            	<div class="info">
+               
+                
+                <!--vimeo video feed-->
+               <script type="text/javascript">
+				jQuery(function() {
+					var vitemarray = new Array();
+					jQuery.getJSON('http://vimeo.com/api/v2/channel/kinderloooop/videos.json?callback=?', {format: "json"}, function(videoList) {
+						if(videoList.length > 1) {
+							for (i=0; i < 6; i += 1) {
+								vitem = videoList[Math.floor(Math.random()*videoList.length)];
+								if(jQuery.inArray(vitem, vitemarray) > -1){
+									i--
+								}else{
+									vitemarray.push(vitem);
+									jQuery.getJSON('http://vimeo.com/api/oembed.json?url=http%3A//vimeo.com/' + vitem.id + '&title=true&byline=false&portrait=false&width=310&height=170&callback=?', {format: "json"}, function(videoProperties) {
+											jQuery("#vimeoRecent").append('<div class="videoThird">' + videoProperties.html + '</div>')
+									});  
+								}
+							}
+						}
+					});
+				});
+				</script>
+				<!--//end-->
+                	<div id="vimeoRecent" style="margin:30px 0"></div>
+					<div class="action">
+						<form action="http://app.kinderloop.com/j_spring_security_check" method="POST">
+						<input type="hidden" value="tester28" type="text" name="j_username" >
+						<input type="hidden" value="tester28" type="text" name="j_password" >
+						<input type="submit" class="flat-btn" value="See a Kinderloop demo" style="width:220px"/>
+						</form>
+                    </div>
+                    <div class="actions">
+                        <a class="btn btn-large btn-parents" href="#" data-toggle="modal" data-target="#myModal">
+                            <i class="fa fa-play"></i>
+                            Families, click here
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ends intro -->
+
+    <div id="index-proof">
+        <div class="container" style="line-height: 55px;text-shadow: 1px 1px #fff;font-size: 20px;color: #797676;">
+            Happily connecting over <span id="numKinderloopers"><i class="fa fa-spinner fa-spin"></i></span> educators & family members worldwide!
+        </div>
+    </div>
+
+    <div class="container">
+
+        <!-- #about -->
+        <div class="section left" id="index-about">
+            <div class="content">
+                <h2>A simple, fun and private way to share a child's development</h2>
+                <ul class="points">
+                    <li>
+                        <i class="fa fa-heart"></i>
+                        <h6>Engaged families, happy educators</h6>
+                        <span>Create strong partnerships between staff & families with the help of your own private learning loop.</span>
+                    </li>
+                    <li>
+                        <i class="fa fa-tablet"></i>
+                        <h6>Designed to be mobile with free apps</h6>
+                        <span>Secure updates to families in real time via computer or mobile device.</span>
+                    </li>
+                    <li>
+                        <i class="fa fa-check-square-o"></i>
+                        <h6>Document more by writing less</h6>
+                        <span>Easily create and link learning outcomes to further families understanding of their child's development.</span>
+                    </li>
+                    <li>
+                        <i class="fa fa-leaf"></i>
+                        <h6>Save your precious time and resources</h6>
+                        <span>Create and share group observations to multiple families without using paper or printers. No more time away from the children.
+</span>
+                    </li>
+
+                    <li class="action">
+                        <a class="btn btn-large btn-custom" href="https://app.kinderloop.com/quickstart">
+                            <i class="fa fa-play"></i>
+                            Educators, start your free trial today
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+            <img class="image" src="assets/img/screen-web-ipad.jpg" alt="Kinderloop screenshots"/>
+        </div>
+        <!-- ends about -->
+
+        <!-- #secure -->
+        <div class="section right" id="index-secure">
+            <img class="image" src="assets/img/screen-secure.jpg" alt="Kinderloop screenshots"/>
+            <div class="content">
+                <h2>Your Kinderloop is a safe, secure and private communication tool</h2>
+                <ul class="points">
+                    <li>
+                        <i class="fa fa-lock"></i>
+                        <h6>Password protected</h6>
+                        <span>Your Kinderloop is a closed and private loop and only viewed by the people you invite.</span>
+                    </li>
+                    <li>
+                        <i class="fa fa-eye"></i>
+                        <h6>Personalised parent feeds</h6>
+                        <span>Linked family members are only sent information relating to their child/ren.</span>
+                    </li>
+                    <li>
+                        <i class="fa fa-shield"></i>
+                        <h6>Your information is safe & secure</h6>
+                        <span>Your Kinderloop content is owned by you and backed up hourly, it's never shared, anywhere! </span>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+        <!-- ends secure -->
+
+        <!-- #testimonials -->
+        <div class="section left" id="index-testimonial">
+            <div class="container">
+                <img  class="image" src="assets/img/screen-phone.jpg"/>
+                <div class="content">
+                    <h2>Join 51,000+ teachers & family worldwide who love Kinderloop</h2>
+                    <div id="testimonial-carousel" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="active item">
+                                <div class="content-testimonial">
+                                    <img src="assets/img/testimonial-bfs.jpg"/>
+                                    <blockquote>
+                                        <span class="ldquo">&ldquo;</span>
+                                        Just wanted to let you know that Kinderloop is going full steam ahead at our center. The families love it and we are now exceeding in all 7 NQS areas!
+                                        <span class="rdquo">&rdquo;</span>
+                                        <small>Kobie Connor</small>
+                                    </blockquote>
+                                </div>
+                            </div>
+
+
+                            <div class="item">
+                                <div class="content-testimonial">
+                                    <img src="assets/img/testimonial-glenyse.jpg"/>
+                                    <blockquote>
+                                        <span class="ldquo">&ldquo;</span>
+                                        Sat down to do my paperwork after week 1 of using Kinderloop and it took me all of 10 minutes. All I had to do was write up this weeks program and do a quick reflection. Amazing!
+                                        <span class="rdquo">&rdquo;</span>
+                                        <small>Glenyse Tracey</small>
+                                    </blockquote>
+                                </div>
+                            </div>
+							
+                            <div class="item">
+                                <div class="content-testimonial">
+                                    <img src="assets/img/testimonial-hills.jpg"/>
+                                    <blockquote>
+                                        <span class="ldquo">&ldquo;</span>
+                                        I highly recommend this app, I think every centre & educator should use it! Great work Kinderloop. Our parents love you!
+                                        <span class="rdquo">&rdquo;</span>
+                                        <small>Mandy Johnson</small>
+                                    </blockquote>
+                                </div>
+                            </div>
+							
+                            <div class="item">
+                                <div class="content-testimonial">
+                                    <img src="assets/img/testimonial-grandma.jpg"/>
+                                    <blockquote>
+                                        <span class="ldquo">&ldquo;</span>
+                                        Nice package, and makes the whole process of starting at daycare much less painful for her mother and meemaw (me :-) - thanks for your work!
+                                        <span class="rdquo">&rdquo;</span>
+                                        <small>Kinderloop Grandma</small>
+                                    </blockquote>
+                                </div>
+                            </div>
+                       
+                            <div class="item">
+                                <div class="content-testimonial">
+                                    <img src="assets/img/testimonial-nelson.jpg"/>
+                                    <blockquote>
+                                        <span class="ldquo">&ldquo;</span>
+                                        We just started with Kinderloop this week and are very excited about the endless possibilities. Tagging is a great way to record learning journeys, so simple!
+                                        <span class="rdquo">&rdquo;</span>
+                                        <small>Jan Slade</small>
+                                    </blockquote>
+                                </div>
+                            </div>
+							
+							
+                            <div class="item">
+                                <div class="content-testimonial">
+                                    <img src="assets/img/testimonial-nextkids.jpg"/>
+                                    <blockquote>
+                                        <span class="ldquo">&ldquo;</span>
+                                        We love the way our families are now more in the loop with their children's activities, and learning journeys are so simple to capture and prepare!
+                                        <span class="rdquo">&rdquo;</span>
+                                        <small>Bre Gentile</small>
+                                    </blockquote>
+                                </div>
+                            </div>
+							
+							
+                            <div class="item">
+                                <div class="content-testimonial">
+                                    <img src="assets/img/testimonial-tafe.jpg"/>
+                                    <blockquote>
+                                        <span class="ldquo">&ldquo;</span>
+                                        Who would have thought the child would be the centre of such an amazing interplay between the service, the family and the community and those relationships could be aided by an app!
+                                        <span class="rdquo">&rdquo;</span>
+                                        <small>Justine Poidevin</small>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control left" href="#testimonial-carousel" data-slide="prev">&lsaquo;</a>
+                        <a class="carousel-control right" href="#testimonial-carousel" data-slide="next">&rsaquo;</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- ends testimonials -->
+
+    </div>
+</div>
+<script>   
+$(document).ready(function() {
+		
+		$('#klform').submit(function(event) {	
+			$('.frmInput').css('border','1px solid #ccc');
+			$('.frmInput').each(function() {
+                if ($(this).val() == '') {
+					alert("Please complete all fields.");
+					$(this).css('border','1px solid #f00');
+					event.preventDefault();
+					return false;
+				}
+            });
+		});
+	});
+ </script> 
+
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Families</h4>
+      </div>
+      <div class="modal-body">
+        <p>We would love to touch base with your educator to help them take the next step with Kinderloop, please provide their details below. Or please wait for a secure email invite if your educator already has their own private Kinderloop.</p>
+       <form action="https://formspree.io/families@kinderloop.com" method="post" id="klform">
+        <p><input type="text" name="name" class="frmInput" placeholder="Your Name"></p>
+        <p><input type="email" name="_replyto" class="frmInput" placeholder="Your Email"></p>
+        <p><input type="text" name="centre" class="frmInput" placeholder="Centre Name & Location"></p>
+        <input type="hidden" name="_next" value="//kinderloop.com/thanks.html" />
+        <input type="text" name="_gotcha" style="display:none" />
+        <p style="text-align:right"><input type="submit" value="Send" id="frmSubmit"></p>
+</form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
