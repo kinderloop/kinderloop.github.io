@@ -299,7 +299,15 @@ $(document).ready(function() {
   </div>
 </div>
 <script>	
-jQuery('#numKinderloopers').html('83,672');
+jQuery(document).ready(function() {
+	jQuery('.btn-parents').click(function() {
+		jQuery('#popup').fadeIn();
+	});
+	jQuery('#closeit').click(function() {
+		jQuery('#popup').fadeOut();
+	});
+	setTimeout(function() {
+		jQuery('#numKinderloopers').html('83,672');
 	}, 5000);
 });
 </script>
