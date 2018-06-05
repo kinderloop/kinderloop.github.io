@@ -31,7 +31,7 @@ class: index
                <script type="text/javascript">
 				jQuery(function() {
 					var vitemarray = new Array();
-					jQuery.getJSON('http://vimeo.com/api/v2/channel/kinderloooop/videos.json?callback=?', {format: "json"}, function(videoList) {
+					jQuery.getJSON('//vimeo.com/api/v2/channel/kinderloooop/videos.json?callback=?', {format: "json"}, function(videoList) {
 						if(videoList.length > 1) {
 							for (i=0; i < 6; i += 1) {
 								vitem = videoList[Math.floor(Math.random()*videoList.length)];
@@ -39,7 +39,7 @@ class: index
 									i--
 								}else{
 									vitemarray.push(vitem);
-									jQuery.getJSON('http://vimeo.com/api/oembed.json?url=http%3A//vimeo.com/' + vitem.id + '&title=true&byline=false&portrait=false&width=310&height=170&callback=?', {format: "json"}, function(videoProperties) {
+									jQuery.getJSON('//vimeo.com/api/oembed.json?url=http%3A//vimeo.com/' + vitem.id + '&title=true&byline=false&portrait=false&width=310&height=170&callback=?', {format: "json"}, function(videoProperties) {
 											jQuery("#vimeoRecent").append('<div class="videoThird">' + videoProperties.html + '</div>')
 									});  
 								}
