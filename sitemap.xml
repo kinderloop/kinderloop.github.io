@@ -6,48 +6,77 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
+
 <url>
-  <loc>http://kinderloop.com/</loc>
-  <lastmod>2014-07-29T05:59:25+00:00</lastmod>
+  <loc>https://kinderloop.com/</loc>
+  <lastmod>2020-03-27T04:58:14+00:00</lastmod>
+  <priority>1.00</priority>
 </url>
 <url>
-  <loc>http://kinderloop.com/index.html</loc>
-  <lastmod>2014-07-29T05:59:25+00:00</lastmod>
+  <loc>https://kinderloop.com/index.html</loc>
+  <lastmod>2020-03-27T04:58:14+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://kinderloop.com/faq.html</loc>
-  <lastmod>2014-07-29T05:59:25+00:00</lastmod>
+  <loc>https://kinderloop.com/faq.html</loc>
+  <lastmod>2020-03-27T04:58:14+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://kinderloop.com/pricing.html</loc>
-  <lastmod>2014-07-29T05:59:25+00:00</lastmod>
+  <loc>https://kinderloop.com/pricing.html</loc>
+  <lastmod>2020-03-27T04:58:14+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://kinderloop.com/privacy.html</loc>
-  <lastmod>2014-07-29T05:59:25+00:00</lastmod>
+  <loc>https://kinderloop.com/privacy.html</loc>
+  <lastmod>2020-03-27T04:58:14+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://kinderloop.com/superloopers.html</loc>
-  <lastmod>2014-07-29T05:59:25+00:00</lastmod>
+  <loc>https://kinderloop.com/superloopers.html</loc>
+  <lastmod>2020-03-27T04:58:14+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://kinderloop.com/help.html</loc>
-  <lastmod>2014-07-29T05:59:25+00:00</lastmod>
+  <loc>https://kinderloop.com/help.html</loc>
+  <lastmod>2020-03-27T04:58:14+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://kinderloop.com/about.html</loc>
-  <lastmod>2014-07-29T05:59:25+00:00</lastmod>
+  <loc>https://kinderloop.com/about.html</loc>
+  <lastmod>2020-03-27T04:58:14+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://kinderloop.com/assets/img/Kinderloop_flyer_parent_0414.pdf</loc>
-  <lastmod>2014-07-29T05:59:25+00:00</lastmod>
+  <loc>https://kinderloop.com/assets/img/Kinderloop%20Privacy%20Policy_0718.pdf</loc>
+  <lastmod>2020-03-27T04:58:09+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://kinderloop.com/assets/img/Kinderloop_imageuse_form_0514.pdf</loc>
-  <lastmod>2014-07-29T05:59:25+00:00</lastmod>
+  <loc>https://kinderloop.com/assets/img/Kinderloop_flyer_parent_0414.pdf</loc>
+  <lastmod>2020-03-27T04:58:09+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://kinderloop.com/assets/img/Kinderloop_poster_0414.pdf</loc>
-  <lastmod>2014-07-29T05:59:25+00:00</lastmod>
+  <loc>https://kinderloop.com/assets/img/Kinderloop_imageuse_form_0514.pdf</loc>
+  <lastmod>2020-03-27T04:58:09+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
+<url>
+  <loc>https://kinderloop.com/assets/img/Kinderloop_poster_0414.pdf</loc>
+  <lastmod>2020-03-27T04:58:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://kinderloop.com/images.html</loc>
+  <lastmod>2020-03-27T04:58:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://kinderloop.com/assets/img/Kinderloop_DocumentationPosts_0315.pdf</loc>
+  <lastmod>2020-03-27T04:58:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
 </urlset>
