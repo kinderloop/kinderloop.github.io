@@ -33,6 +33,10 @@ body {
       padding-right: 21px;
     }
   }
+
+  img {
+    height: 40px;
+  }
 }
 
 h2 {
@@ -230,9 +234,10 @@ h3{
             border-left: 1px solid @navbarBorder;
 
             img {
-              width: 100%;
-              max-height: 100%;
-              object-fit: cover;
+              width: 90%;
+              max-height: 90%;
+              //object-fit: cover;
+              filter: invert(85%) sepia(10%) saturate(2062%) hue-rotate(36deg) brightness(82%) contrast(94%);
             }
           }
 
