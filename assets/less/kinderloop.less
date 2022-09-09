@@ -192,6 +192,12 @@ h3{
 }
 
 .additional-features {
+
+  .btn {
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+
   .feature-table {
     .ft-row {
       width: 100%;
@@ -252,7 +258,7 @@ h3{
           }
 
           &.header {
-            font-weight: bold;
+            height: 55px;
           }
 
           &.odd {
@@ -270,16 +276,6 @@ h3{
                 margin-top: 15px;
               }
             }
-            &.paired {
-              // cancel the 'extra' properties if paired because in this single col view it won't need it
-              height: 40px;
-              .tick {
-                height: 40px;
-                img {
-                  margin-top: 0;
-                }
-              }
-            }
           }
           &.extra-2 {
             height: 80px;
@@ -287,16 +283,6 @@ h3{
               height: 80px;
               img {
                 margin-top: 27px;
-              }
-            }
-            &.paired {
-              // cancel the 'extra' properties if paired because in this single col view it won't need it
-              height: 40px;
-              .tick {
-                height: 40px;
-                img {
-                  margin-top: 0;
-                }
               }
             }
           }
@@ -336,6 +322,18 @@ h3{
           .entry-row {
             &.blank {
               display: none;
+            }
+            &.extra, &.extra-2 {
+              &.paired {
+                // cancel the 'extra' properties if paired because in this single col view it won't need it
+                height: 40px;
+                .tick {
+                  height: 40px;
+                  img {
+                    margin-top: 15px;
+                  }
+                }
+              }
             }
           }
         }
