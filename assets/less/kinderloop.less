@@ -213,16 +213,23 @@ h3{
           padding: 0;
           border-left: 1px solid @navbarBorder;
           border-top: 1px solid @navbarBorder;
+          height: 30px;
 
           .feature {
             margin: 0;
             padding: 0 0 0 10px;
             .calc-width(~"100% - 56px");
-            height: 30px;
             vertical-align: middle;
             display: inline-block;
-            line-height: 30px;
-
+            .f {
+              margin-right: 5px;
+            }
+            .b {
+              font-weight: bold;
+            }
+            .n {
+              margin-left: 5px;
+            }
           }
           .tick {
             margin: 0;
@@ -230,13 +237,13 @@ h3{
             width: 40px;
             height: 30px;
             display: inline-block;
-            vertical-align: top;
+            vertical-align: middle;
             border-left: 1px solid @navbarBorder;
             text-align: center;
 
             img {
               width: 90%;
-              max-height: 90%;
+              max-height: 27px;
               //object-fit: cover;
               filter: invert(85%) sepia(10%) saturate(2062%) hue-rotate(36deg) brightness(82%) contrast(94%);
             }
@@ -258,7 +265,8 @@ h3{
         &.first {
           .entry-row {
             .tick {
-              display: none;
+              width:0;
+              border-left: 0;
             }
           }
         }
@@ -276,13 +284,43 @@ h3{
             .entry-row {
               border-right: 1px solid @navbarBorder;
               .tick {
-                display: inline-block;
+                width:40px;
+                border-left: 1px solid @navbarBorder;
               }
             }
           }
           &.second {
             margin-top: 20px;
             width: 100%;
+          }
+          .entry-row {
+            &.blank {
+              display: none;
+            }
+          }
+        }
+        @media (max-width: 620px) {
+          .entry-row {
+            &.extra {
+              height: 46px;
+              .tick {
+                height: 46px;
+              }
+            }
+          }
+        }
+        @media (max-width: 440px) {
+          .entry-row {
+            height: 46px;
+            .tick {
+              height: 46px;
+            }
+            &.extra {
+              height: 62px;
+              .tick {
+                height: 62px;
+              }
+            }
           }
         }
       }
