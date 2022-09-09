@@ -199,6 +199,7 @@ h3{
       padding: 0;
       background-color: @paginationBackground;
       font-size: 12px;
+      line-height: 20px;
 
       .ft-col {
         width: 50%;
@@ -213,7 +214,7 @@ h3{
           padding: 0;
           border-left: 1px solid @navbarBorder;
           border-top: 1px solid @navbarBorder;
-          height: 30px;
+          height: 40px;
 
           .feature {
             margin: 0;
@@ -235,7 +236,7 @@ h3{
             margin: 0;
             padding: 0;
             width: 40px;
-            height: 30px;
+            height: 40px;
             display: inline-block;
             vertical-align: middle;
             border-left: 1px solid @navbarBorder;
@@ -246,6 +247,7 @@ h3{
               max-height: 27px;
               //object-fit: cover;
               filter: invert(85%) sepia(10%) saturate(2062%) hue-rotate(36deg) brightness(82%) contrast(94%);
+              margin-top: 6px;
             }
           }
 
@@ -302,23 +304,32 @@ h3{
         @media (max-width: 620px) {
           .entry-row {
             &.extra {
-              height: 46px;
+              height: 80px;
               .tick {
-                height: 46px;
+                height: 80px;
+                img {
+                  margin-top: 27px;
+                }
               }
             }
           }
         }
         @media (max-width: 440px) {
           .entry-row {
-            height: 46px;
+            height: 80px;
             .tick {
-              height: 46px;
+              height: 80px;
+              img {
+                margin-top: 27px;
+              }
             }
             &.extra {
-              height: 62px;
+              height: 90px;
               .tick {
-                height: 62px;
+                height: 90px;
+                img {
+                  margin-top: 27px;
+                }
               }
             }
           }
