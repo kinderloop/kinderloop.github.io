@@ -192,12 +192,6 @@ h3{
 }
 
 .additional-features {
-
-  .btn {
-    margin-top: 20px;
-    margin-bottom: 50px;
-  }
-
   .feature-table {
     .ft-row {
       width: 100%;
@@ -258,7 +252,7 @@ h3{
           }
 
           &.header {
-            height: 55px;
+            font-weight: bold;
           }
 
           &.odd {
@@ -323,42 +317,16 @@ h3{
             &.blank {
               display: none;
             }
-            &.extra, &.extra-2 {
-              &.paired {
-                // cancel the 'extra' properties if paired because in this single col view it won't need it
-                height: 40px;
-                .tick {
-                  height: 40px;
-                  img {
-                    margin-top: 15px;
-                  }
-                }
-              }
-            }
           }
         }
         @media (max-width: 620px) {
           .entry-row {
             &.extra {
               height: 80px;
-
               .tick {
                 height: 80px;
-
                 img {
                   margin-top: 27px;
-                }
-              }
-            }
-            &.extra, &.extra-2 {
-              &.paired {
-                // cancel the 'extra' properties if paired because in this single col view it won't need it
-                height: 40px;
-                .tick {
-                  height: 40px;
-                  img {
-                    margin-top: 15px;
-                  }
                 }
               }
             }
@@ -366,22 +334,19 @@ h3{
         }
         @media (max-width: 440px) {
           .entry-row {
+            height: 80px;
+            .tick {
+              height: 80px;
+              img {
+                margin-top: 27px;
+              }
+            }
             &.extra {
               height: 90px;
               .tick {
                 height: 90px;
                 img {
                   margin-top: 27px;
-                }
-              }
-              &.paired {
-                // cancel the 'extra' properties if paired because in this single col view it won't need it
-                height: 40px;
-                .tick {
-                  height: 40px;
-                  img {
-                    margin-top: 15px;
-                  }
                 }
               }
             }
