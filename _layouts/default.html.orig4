@@ -1,0 +1,203 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <title>{{ page.title }}</title>
+    <link rel="shortcut icon" href="/assets/img/kinderloop.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Childcare reporting, Early Childhood Documentation, Care Provider, Teacher, Learning Journey, Parent communication, EYLF, EYLS, NAYCE, EY Reporting" />
+	<meta name="keywords" content="Childcare reporting, Early Childhood EYLF Documentation, Care Provider, EYFS Parent communication, Learning Journey, EYLF, EYLS, NAYCE, Reporting, Educator, Teacher, Preschool, Nursery, Nanny, Kinderloop" />
+
+    <script type="text/javascript">
+
+        var Keen=Keen||{configure:function(e){this._cf=e},addEvent:function(e,t,n,i){this._eq=this._eq||[],this._eq.push([e,t,n,i])},setGlobalProperties:function(e){this._gp=e},onChartsReady:function(e){this._ocrq=this._ocrq||[],this._ocrq.push(e)}};(function(){var e=document.createElement("script");e.type="text/javascript",e.async=!0,e.src=("https:"==document.location.protocol?"https://":"http://")+"dc8na2hxrj29i.cloudfront.net/code/keen-2.1.0-min.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})();
+
+        Keen.configure({
+            projectId: "521efc862975164596000000",
+            writeKey: "688182b8e02a159fe17ae932c3cb6cbf55459f9bcbfb37c93dd8e65efafe68e9873025b9e0c32266fdb5a06343ae0935777bdf8e281b52d1196592c849e2ebfda85ed81f1c2b4f404af19bcd806ef71eb7058fadc89f035c5a465b5f59993a4a3d004949c4b2b7fae7b20ed8bbcbd822", // required for sending events
+            readKey: "4625c0380e7ca1c818914a489466bcb9bb0113ada27330c0a6161e736eb6675c8573fa69a9040ad080d916b73e3b33acdd54bda91d8d3a359007f7a17c545e2a2108ce0a4d345926b529fc286855531c88f59ca01329dcdec72f98b2d41995cdf6e0d6290a2acce16c1c0415470ee449"    // required for doing analysis
+        });
+
+
+    </script>
+
+    <script data-main="assets/js/metrics" src="assets/js/require.js"></script>
+
+    <script type="text/javascript">
+        require(['metrics'], function (metrics) {
+            metrics.init("kinderloop.com");
+            metrics.recordPageView();
+        });
+    </script>
+
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <link href="assets/ext/bootstrap-2.3.1/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/ext/bootstrap-2.3.1/css/responsive.css" rel="stylesheet">
+    <script src="assets/ext/bootstrap-2.3.1/js/bootstrap.js"></script>
+    <link href="assets/ext/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/css/kinderloop.css" rel="stylesheet">
+    <link href="assets/css/site.css" rel="stylesheet">
+
+    <!--[if lt ie 9]>
+        <script type="text/javascript" src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if ie 7]>
+        <link rel="stylesheet" href="${createLinkTo(dir: '/ext/font-awesome-3.0/css', file: 'font-awesome-ie7.min.css')}">
+    <![endif]-->
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FFRC2ZERTD"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-FFRC2ZERTD');
+</script>
+  
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-35078138-1']);
+        _gaq.push(['_setDomainName', 'kinderloop.com']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+
+    <script src="https://cdn.optimizely.com/js/287741439.js"></script>
+
+    <!-- Begin Inspectlet Embed Code -->
+    <script type="text/javascript" id="inspectletjs">
+		/*
+        window.__insp = window.__insp || [];
+        __insp.push(['wid', 1232264739]);
+        (function() {
+            function __ldinsp(){var insp = document.createElement('script'); insp.type = 'text/javascript'; insp.async = true; insp.id = "inspsync"; insp.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://www.inspectlet.com/inspectlet.js'; var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(insp, x); }
+            if (window.attachEvent){
+                window.attachEvent('onload', __ldinsp);
+            }else{
+                window.addEventListener('load', __ldinsp, false);
+            }
+        })();
+		*/
+    </script>
+    <!-- End Inspectlet Embed Code -->
+<meta name="google-translate-customization" content="1d057c6384624422-d8d4712a956baaa3-g1f7bf90b9f5def54-12"></meta>
+
+<script type="text/javascript" src="https://s3.amazonaws.com/assets.freshdesk.com/widget/freshwidget.js"></script>
+<script type="text/javascript">
+	FreshWidget.init("", {"queryString": "&widgetType=popup&submitTitle=Send&screenshot=no&attachFile=no&captcha=yes", "utf8": "✓", "widgetType": "popup", "buttonType": "text", "buttonText": "Questions?", "buttonColor": "white", "buttonBg": "#8FDB00", "alignment": "3", "offset": "900px", "formHeight": "500px", "screenshot": "no", "captcha": "yes", "url": "https://kinderloop.freshdesk.com"} );
+</script>
+
+<!-- Hotjar Tracking Code for kinderloop.com -->
+<script>
+    /*
+	(function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:75107,hjsv:5};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+*/
+</script>
+
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '676504435840401');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=676504435840401&ev=PageView&noscript=1"
+/></noscript>
+<!-- DO NOT MODIFY -->
+<!-- End Facebook Pixel Code -->
+	
+</head>
+<body class="{{ page.class }}">
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-inner">
+        <div class="container">
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="brand" href="index.html"></a>
+            <div class="nav-collapse collapse">
+                <ul class="nav pull-right">
+                    <li {% if page.url == '/faq.html' %} class="active" {% endif %}><a href="faq.html">Features</a></li>
+					<li {% if page.url == '/pricing.html' %} class="active" {% endif %}><a href="pricing.html">Pricing</a></li>
+										<li {% if page.url == '/privacy.html' %} class="active" {% endif %}><a href="privacy.html">Privacy</a></li>
+										<li {% if page.url == '/superloopers.html' %} class="active" {% endif %}><a href="superloopers.html">Ambassadors</a></li>
+										<li {% if page.url == '/partners.html' %} class="active" {% endif %}><a href="partners.html">Partners</a></li>
+										<li {% if page.url == '/help.html' %} class="active" {% endif %}><a href="help.html">Help</a></li>
+										<li {% if page.url == '/about.html' %} class="active" {% endif %}><a href="about.html">Our story</a></li>
+										<li {% if page.url == 'http://blog.kinderloop.com/' %} class="active" {% endif %}><a target="_blank" href="http://blog.kinderloop.com/">Our blog</a></li>
+
+                    <li><a href="https://app.kinderloop.com"><font color = "ffffff">Login</font></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+{{ content }}
+
+<!-- footer -->
+<div id="footer" class="footer">
+    <div class="container">
+        <div class="row-fluid">
+            <ul>
+                <li>Kinderloop Inc &copy;2022</li>
+				<li><a target="_blank" href="https://www.instagram.com/kinderloop/"><i class="fa fa-heart"></i> Instagram learning</a></li>
+				<li><a href="about.html"><i class="fa fa-phone"></i> Contact us</a></li>
+                <li><a target="_blank"
+				 href="http://www.facebook.com/kinderloop"><i class="fa fa-facebook-official"></i> Friends like us</a></li>
+                <li><a target="_blank" href="http://www.twitter.com/kinderloop"><i class="fa fa-twitter"></i> Tweet tweet</a></li>
+				<li style="
+				   float: right;
+				"><a target="_blank" href="https://itunes.apple.com/us/app/kinderloop-plus/id1118661267?mt=8"><img
+				src="assets/img/applestore_button.png"></a></li>
+				<li style="
+				   float: right;
+				"><a target="_blank" href="https://play.google.com/store/apps/details?id=com.kinderloop.kinderloopplus"><img
+				src="assets/img/aandroidstore_button.png"></a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div id="google_translate_element"></div><script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+}
+</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<!-- end footer -->
+
+
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-35078138-1']);
+    _gaq.push(['_setDomainName', 'kinderloop.com']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+
+</body>
+</html>
